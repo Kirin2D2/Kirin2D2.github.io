@@ -1,1 +1,225 @@
-Hello World
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <meta name="description" content="Personal portfolio of Kirin Danek" />
+  <title>Kirin Danek | Portfolio</title>
+
+  <!-- Favicon (optional) -->
+  <link rel="icon" type="image/png" href="favicon.png" />
+
+  <!-- Example Fonts (Google Fonts) -->
+  <link rel="preconnect" href="https://fonts.gstatic.com" />
+  <link 
+    href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap" 
+    rel="stylesheet" 
+  />
+
+  <style>
+    /* Minimal reset and styling */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    body {
+      font-family: 'Montserrat', sans-serif;
+      line-height: 1.6;
+      background: #f4f4f4;
+      color: #333;
+    }
+    header {
+      background: #2b2b2b;
+      color: #fff;
+      padding: 2rem;
+      text-align: center;
+    }
+    header h1 {
+      margin-bottom: 0.5rem;
+    }
+    nav {
+      margin-top: 1rem;
+    }
+    nav a {
+      color: #fff;
+      text-decoration: none;
+      margin: 0 0.5rem;
+      font-weight: 600;
+    }
+    nav a:hover {
+      text-decoration: underline;
+    }
+    main {
+      max-width: 900px;
+      margin: 2rem auto;
+      padding: 0 1rem;
+    }
+    section {
+      margin-bottom: 3rem;
+    }
+    section h2 {
+      margin-bottom: 1rem;
+      font-size: 1.75rem;
+      border-bottom: 2px solid #ccc;
+      display: inline-block;
+      padding-bottom: 0.5rem;
+    }
+    .projects-list {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 1rem;
+    }
+    .project {
+      flex: 1 1 300px;
+      background: #fff;
+      padding: 1rem;
+      border-radius: 5px;
+      box-shadow: 0 0 4px rgba(0,0,0,0.1);
+    }
+    .project h3 {
+      margin-bottom: 0.5rem;
+    }
+    footer {
+      text-align: center;
+      padding: 1rem 0;
+      background: #2b2b2b;
+      color: #fff;
+      margin-top: 2rem;
+    }
+    .social-links a {
+      margin: 0 0.5rem;
+      color: #fff;
+      text-decoration: none;
+      font-weight: 600;
+    }
+    .social-links a:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+  <!-- HEADER -->
+  <header>
+    <h1>Hello, I'm Kirin Danek</h1>
+    <p>Software Engineer · Developer · Tech Enthusiast</p>
+    <nav>
+      <a href="#about">About</a>
+      <a href="#projects">Projects</a>
+      <a href="#skills">Skills</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <!-- MAIN CONTENT -->
+  <main>
+    <!-- ABOUT SECTION -->
+    <section id="about">
+      <h2>About Me</h2>
+      <p>
+        I'm Kirin Danek, a passionate developer and open-source enthusiast.
+        With a background in software engineering, I love to design and build 
+        solutions that solve real-world problems. My experiences range from 
+        working on front-end web applications to developing complex back-end 
+        services.
+      </p>
+      <p>
+        I am constantly learning new technologies and staying up-to-date with 
+        the latest industry trends. Outside of coding, you’ll find me exploring 
+        new coffee spots, dabbling in machine learning projects, or contributing 
+        to community hackathons. 
+      </p>
+    </section>
+
+    <!-- PROJECTS SECTION -->
+    <section id="projects">
+      <h2>Projects</h2>
+      <div class="projects-list">
+        <!-- Project One -->
+        <div class="project">
+          <h3>Project One: Dev Blog</h3>
+          <p>
+            A developer-focused blogging platform where users can write, share, 
+            and discuss their coding journeys. Built with React, Node.js, and 
+            GraphQL.
+          </p>
+          <p>
+            <a href="https://github.com/yourusername/dev-blog" target="_blank">
+              View on GitHub
+            </a>
+          </p>
+        </div>
+
+        <!-- Project Two -->
+        <div class="project">
+          <h3>Project Two: Data Analytics Dashboard</h3>
+          <p>
+            An interactive dashboard that visualizes complex data sets. 
+            Utilizes Python (Pandas, NumPy) for data processing and D3.js 
+            for stunning data visualizations.
+          </p>
+          <p>
+            <a href="https://github.com/yourusername/data-analytics-dashboard" target="_blank">
+              View on GitHub
+            </a>
+          </p>
+        </div>
+
+        <!-- Project Three -->
+        <div class="project">
+          <h3>Project Three: IoT Home Automation</h3>
+          <p>
+            A home automation system that allows users to monitor and control 
+            appliances via a web interface and a mobile app. Built with 
+            Raspberry Pi, Python, and a custom API.
+          </p>
+          <p>
+            <a href="https://github.com/yourusername/iot-home-automation" target="_blank">
+              View on GitHub
+            </a>
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- SKILLS SECTION -->
+    <section id="skills">
+      <h2>Skills</h2>
+      <ul>
+        <li><strong>Languages:</strong> JavaScript, Python, C++, Java</li>
+        <li><strong>Frameworks & Libraries:</strong> React, Node.js, Django, Flask</li>
+        <li><strong>Tools & Platforms:</strong> Git, Docker, AWS, GitHub Actions</li>
+        <li><strong>Other:</strong> Agile Methodologies, Test-driven Development</li>
+      </ul>
+    </section>
+
+    <!-- CONTACT SECTION -->
+    <section id="contact">
+      <h2>Contact</h2>
+      <p>
+        I'm always open to discussing new projects, creative ideas, or 
+        opportunities to be part of your vision. Feel free to reach out!
+      </p>
+      <p>
+        Email: <a href="mailto:kirin.danek@example.com">kirin.danek@example.com</a><br/>
+        GitHub: <a href="https://github.com/Kirin-Danek" target="_blank">Kirin-Danek</a>
+      </p>
+    </section>
+  </main>
+
+  <!-- FOOTER -->
+  <footer>
+    <p>&copy; <span id="year"></span> Kirin Danek. All Rights Reserved.</p>
+    <div class="social-links">
+      <a href="https://github.com/Kirin-Danek" target="_blank">GitHub</a> |
+      <a href="https://www.linkedin.com/in/kirin-danek" target="_blank">LinkedIn</a> 
+      <!-- Add more social or professional links if you'd like -->
+    </div>
+  </footer>
+
+  <script>
+    // Dynamically update the year in the footer
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
