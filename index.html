@@ -113,10 +113,41 @@
 
   <!-- MAIN CONTENT -->
   <main>
+    <!-- ABOUT SECTION -->
+    <section id="about">
+      <h2>About Me</h2>
+      <p>
+        I'm Kirin Danek, a passionate researcher and current undergraduate at
+        Princeton University. I'm studying Computer Science with a minor in Statistics and Machine Learning.
+        My research areas are data science and ML for causal inference, computer vision, and LLM performance.
+        I'm currently taking a semester abroad at DIS Copenhagen in Denmark, where I'm studying Complex Networks.
+      </p>
+      <p>
+        I am constantly learning new technologies and staying up-to-date with 
+        the latest industry trends. Outside of coding, you’ll find me exploring 
+        new coffee spots, dabbling in machine learning projects, or contributing 
+        to community hackathons. 
+      </p>
+    </section>
+
     <!-- PROJECTS SECTION -->
     <section id="projects">
       <h2>Projects</h2>
       <div class="projects-list">
+        <!-- Project One -->
+        <div class="project">
+          <h3>Project One: Proxy Finder </h3>
+          <p>
+           A data-driven causal inference method for identifying proxy for missing 
+            variable in political science datasets. Built in Python with pandas,
+            PyTorch.
+          </p>
+          <p>
+            <a href="https://github.com/yourusername/dev-blog" target="_blank">
+              Github releasing soon!
+            </a>
+          </p>
+        </div>
         <div class="project">
           <h3>multiClassCNN</h3>
           <p>Deep learning-based image classifier using CNNs for multi-class classification.</p>
@@ -124,15 +155,39 @@
         </div>
         <div class="project">
           <h3>K-Means</h3>
-          <p>Implementation of K-Means clustering algorithm with various distance metrics.</p>
-          <p><a href="https://github.com/Kirin2D2/K-Means" target="_blank">GitHub Repository</a></p>
+          <p>Implementation of K-Means clustering algorithm with various distance metrics and use cases.</p>
+          <p><a href="https://github.com/Kirin2D2/K-Means-K-MeansPlus" target="_blank">GitHub Repository</a></p>
         </div>
         <div class="project">
           <h3>LoRMA</h3>
           <p>Low-rank matrix approximation for dimensionality reduction and efficiency in ML.</p>
           <p><a href="https://github.com/Kirin2D2/LoRMA" target="_blank">GitHub Repository</a></p>
         </div>
+
       </div>
+    </section>
+
+    <!-- SKILLS SECTION -->
+    <section id="skills">
+      <h2>Skills</h2>
+      <ul>
+        <li><strong>Languages:</strong> Java, Python (Pandas, PyTorch, TensorFlow), C/C++, Golang, Rust, R, SQL</li>
+        <li><strong>Tools & Platforms:</strong> Git/GitHub, Unix/Linux (bash scripting), Stata, VScode, JetBrains platforms, Emacs, Vim</li>
+        <li><strong>Interests:</strong> Deep Learning, Fine Tuning, Computer Vision, Algorithms, Causal Inference, Probability, Statistics, Optimization</li>
+      </ul>
+    </section>
+
+    <!-- CONTACT SECTION -->
+    <section id="contact">
+      <h2>Contact</h2>
+      <p>
+        I'm always open to discussing new projects, creative ideas, or 
+        opportunities to be part of your vision. Feel free to reach out!
+      </p>
+      <p>
+        Email: <a href="mailto:kirin@useunix.com">kirin@useunix.com</a><br/>
+        GitHub: <a href="https://github.com/Kirin2D2" target="_blank">Kirin2D2</a>
+      </p>
     </section>
   </main>
 
@@ -143,5 +198,10 @@
       <a href="https://www.linkedin.com/in/kirindanek" target="_blank">LinkedIn</a> 
     </div>
   </footer>
+
+  <script>
+    // Dynamically update the year in the footer
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
 </body>
 </html>
