@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta name="google-site-verification" content="hY9gAEaX65NyNwDTHHiW0hSyc7VVt1_hfLhl8zR1S3U" />
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Academic homepage of Kirin Danek, undergraduate researcher in computer science at Princeton University." />
+  <title>Kirin Danek</title>
+
+  <link rel="icon" type="image/png" href="favicon.png" />
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Person",
+    "name": "Kirin Danek",
+    "url": "https://kirin2d2.github.io",
+    "sameAs": [
+      "https://github.com/kirin2d2",
+      "https://www.linkedin.com/in/kirindanek"
+    ]
+  }
+  </script>
+
+  <style>
+    :root {
+      --text: #111;
+      --muted: #555;
+      --border: #ddd;
+      --link: #0645ad;
+      --background: #fff;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      padding: 0;
+      background: var(--background);
+      color: var(--text);
+      font-family: Georgia, "Times New Roman", Times, serif;
+      font-size: 17px;
+      line-height: 1.55;
+    }
+
+    a {
+      color: var(--link);
+      text-decoration: none;
+    }
+
+    a:hover,
+    a:focus {
+      text-decoration: underline;
+    }
+
+    .page {
+      max-width: 880px;
+      margin: 0 auto;
+      padding: 2.5rem 1.25rem 3rem;
+    }
+
+    header {
+      border-bottom: 1px solid var(--border);
+      padding-bottom: 1.25rem;
+      margin-bottom: 2rem;
+    }
+
+    .header-content {
+      display: flex;
+      align-items: flex-start;
+      gap: 1.5rem;
+    }
+
+    .profile-img {
+      width: 140px;
+      height: 140px;
+      object-fit: cover;
+      border: 1px solid var(--border);
+    }
+
+    h1 {
+      font-size: 2.2rem;
+      line-height: 1.1;
+      margin: 0 0 0.35rem;
+      font-weight: normal;
+    }
+
+    .subtitle {
+      margin: 0 0 0.75rem;
+      color: var(--muted);
+    }
+
+    .contact-line {
+      margin: 0.2rem 0;
+      font-size: 0.98rem;
+    }
+
+    nav {
+      margin-top: 1rem;
+      font-size: 0.98rem;
+    }
+
+    nav a {
+      margin-right: 1rem;
+      white-space: nowrap;
+    }
+
+    section {
+      margin: 2rem 0;
+    }
+
+    h2 {
+      font-size: 1.35rem;
+      font-weight: normal;
+      border-bottom: 1px solid var(--border);
+      padding-bottom: 0.25rem;
+      margin: 0 0 0.85rem;
+    }
+
+    h3 {
+      font-size: 1rem;
+      margin: 1rem 0 0.15rem;
+    }
+
+    p {
+      margin: 0.7rem 0;
+    }
+
+    ul {
+      margin: 0.5rem 0 0.5rem 1.35rem;
+      padding: 0;
+    }
+
+    li {
+      margin: 0.35rem 0;
+    }
+
+    .item-title {
+      font-weight: bold;
+    }
+
+    .note {
+      color: var(--muted);
+    }
+
+    .video-wrapper {
+      position: relative;
+      padding-bottom: 56.25%;
+      height: 0;
+      overflow: hidden;
+      border: 1px solid var(--border);
+      margin-top: 0.75rem;
+    }
+
+    .video-wrapper iframe {
+      border: 0;
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+    }
+
+    footer {
+      border-top: 1px solid var(--border);
+      margin-top: 2.5rem;
+      padding-top: 1rem;
+      color: var(--muted);
+      font-size: 0.95rem;
+    }
+
+    @media (max-width: 650px) {
+      body {
+        font-size: 16px;
+      }
+
+      .page {
+        padding-top: 1.5rem;
+      }
+
+      .header-content {
+        display: block;
+      }
+
+      .profile-img {
+        width: 120px;
+        height: 120px;
+        margin-bottom: 1rem;
+      }
+
+      nav a {
+        display: inline-block;
+        margin-bottom: 0.35rem;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="page">
+    <header>
+      <div class="header-content">
+        <img src="profile.jpg" alt="Kirin Danek" class="profile-img" />
+        <div>
+          <h1>Kirin Danek</h1>
+          <p class="subtitle">Undergraduate Researcher · Computer Science · Princeton University</p>
+          <p class="contact-line">
+            Email: <a href="mailto:kirin@useunix.com">kirin@useunix.com</a>
+          </p>
+          <p class="contact-line">
+            <a href="cv.pdf" target="_blank" rel="noopener">CV</a> ·
+            <a href="https://github.com/Kirin2D2" target="_blank" rel="noopener">GitHub</a> ·
+            <a href="https://www.linkedin.com/in/kirindanek" target="_blank" rel="noopener">LinkedIn</a>
+          </p>
+          <nav aria-label="Main navigation">
+            <a href="#about">About</a>
+            <a href="#research">Research</a>
+            <a href="#talks">Talks</a>
+            <a href="#projects">Projects</a>
+            <a href="#skills">Skills</a>
+            <a href="#contact">Contact</a>
+          </nav>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <section id="about">
+        <h2>About</h2>
+        <p>
+          I am an undergraduate at <a href="https://www.cs.princeton.edu/">Princeton University</a>, studying Computer Science with a minor in Statistics and Machine Learning. My research interests include explainable AI, algorithmic fairness, human-computer interaction, representation learning, and computational social science.
+        </p>
+        <p>
+          I currently conduct research on AI explainability and fairness in the Ramaswamy Lab, advised by <a href="https://www.cs.princeton.edu/~vr23/">Dr. Vikram Ramaswamy</a> and <a href="https://www.cs.princeton.edu/~pparedes/">Dr. Pedro Paredes</a>. For the most current overview of my research, please see my <a href="cv.pdf">CV</a>.
+        </p>
+      </section>
+
+      <section id="research">
+        <h2>Research</h2>
+        <ul>
+          <li>
+            <span class="item-title">Network Concept Pruning.</span>
+            Concept-based pruning methods for convolutional neural networks, with applications to interpretability, robustness, and reducing reliance on spurious features.
+          </li>
+          <li>
+            <span class="item-title">ProxyFinder.</span>
+            Computational social science methods for selecting proxy variables for missing survey constructs, with emphasis on prediction, validity, and fairness considerations.
+          </li>
+          <li>
+            <span class="item-title">LLM-mediated collaboration.</span>
+            Human-computer interaction research on using language models to distribute procedural instructions across team members during collaborative tasks.
+          </li>
+        </ul>
+      </section>
+
+      <section id="talks">
+        <h2>Talks</h2>
+        <p>
+          <span class="item-title">ProxyFinder.</span> Presented at Princeton Research Day, 2025.
+        </p>
+        <div class="video-wrapper">
+          <iframe
+            id="kaltura_player"
+            type="text/javascript"
+            src="https://cdnapisec.kaltura.com/p/1449362/embedPlaykitJs/uiconf_id/56118542?iframeembed=true&entry_id=1_xt8cfs0b&config[provider]={'widgetId':'1_e87iw9pa'}"
+            allowfullscreen
+            webkitallowfullscreen
+            mozAllowFullScreen
+            allow="autoplay *; fullscreen *; encrypted-media *"
+            sandbox="allow-forms allow-same-origin allow-scripts allow-top-navigation allow-pointer-lock allow-popups allow-modals allow-orientation-lock allow-popups-to-escape-sandbox allow-presentation allow-top-navigation-by-user-activation"
+            title="ProxyFinder presentation"
+          ></iframe>
+        </div>
+      </section>
+
+      <section id="projects">
+        <h2>Selected Projects</h2>
+        <ul>
+          <li>
+            <span class="item-title">Network Concept Pruning</span> — CNN pruning via concept-based explainable AI. <a href="https://github.com/Kirin2D2/NCP.v2">GitHub</a>
+          </li>
+          <li>
+            <span class="item-title">ProxyFinder</span> — Computational method for selecting proxies for missing survey variables. <a href="https://github.com/Kirin2D2/ProxyFinder">GitHub</a>
+          </li>
+          <li>
+            <span class="item-title">Bitcoin Client</span> — From-scratch Bitcoin client implementation in Rust. <a href="https://github.com/Kirin2D2/BitcoinClient">GitHub</a>
+          </li>
+          <li>
+            <span class="item-title">Fraud Detection</span> — Fraudulent transaction prediction using weak decision stumps and AdaBoost in Java. <a href="https://github.com/Kirin2D2/FraudDetection">GitHub</a>
+          </li>
+          <li>
+            <span class="item-title">K-Means</span> — Custom implementation of K-Means and K-Means++ clustering in Python. <a href="https://github.com/Kirin2D2/K-Means-K-MeansPlus">GitHub</a>
+          </li>
+          <li>
+            <span class="item-title">LoRMA</span> — Low-rank matrix approximation for machine learning efficiency. <a href="https://github.com/Kirin2D2/LoRMA">GitHub</a>
+          </li>
+        </ul>
+      </section>
+
+      <section id="skills">
+        <h2>Skills</h2>
+        <p><span class="item-title">Languages:</span> Python, Java, C/C++, Go, Rust, R, SQL</p>
+        <p><span class="item-title">Libraries and tools:</span> PyTorch, TensorFlow, Pandas, Git/GitHub, Unix/Linux, Bash, LaTeX, Stata, VS Code, JetBrains, Emacs</p>
+        <p><span class="item-title">Research areas:</span> Explainable AI, algorithmic fairness, human-computer interaction, representation learning, computational social science</p>
+      </section>
+
+      <section id="contact">
+        <h2>Contact</h2>
+        <p>
+          Email: <a href="mailto:kirin@useunix.com">kirin@useunix.com</a><br />
+          GitHub: <a href="https://github.com/Kirin2D2">Kirin2D2</a><br />
+          LinkedIn: <a href="https://www.linkedin.com/in/kirindanek">kirindanek</a>
+        </p>
+      </section>
+    </main>
+
+    <footer>
+      <p>© 2026 Kirin Danek</p>
+    </footer>
+  </div>
+</body>
+</html>
